@@ -1,0 +1,21 @@
+{
+  "name": "expiry-date-parser",
+  "version": "0.1.0",
+  "description": "Normalize short date to full date",
+  "main": "index.js",
+  "author": "turopoff",
+  "license": "MIT",
+  "keywords": [
+    "SHORT DATE TO FULL DATE",
+    "NORMALIZE SHORT DATE",
+    "DATE"
+  ],
+  "dependencies": {
+    "moment": "^2.30.1",
+    "moment-parseformat": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turopoff/expiry-date-parser.git"
+  }
+}
