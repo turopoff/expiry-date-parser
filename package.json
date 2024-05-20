@@ -1,6 +1,6 @@
 {
   "name": "expiry-date-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Normalize expiry date to full date",
   "main": "dist/expiry-date-parser.cjs.js",
   "module": "dist/expiry-date-parser.esm.js",
