@@ -1,14 +1,14 @@
 {
   "name": "expiry-date-parser",
   "version": "0.1.0",
-  "description": "Normalize short date to full date",
+  "description": "Normalize expiry date to full date",
   "main": "index.js",
   "author": "turopoff",
   "license": "MIT",
   "keywords": [
-    "SHORT DATE TO FULL DATE",
-    "NORMALIZE SHORT DATE",
-    "DATE"
+    "expiry date to full date",
+    "normalize expiry date",
+    "date"
   ],
   "dependencies": {
     "moment": "^2.30.1",

@@ -1,4 +1,4 @@
-# SHORT DATE PARSER
+# EXPIRY DATE PARSER
 
 ## Installation
 

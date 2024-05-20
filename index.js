@@ -1,3 +1,3 @@
-const { parseShortDateAsync } = require("./lib/expiry-date-parser");
+const { parseExpiryDateAsync } = require("./lib/expiry-date-parser");
 
-module.exports = parseShortDateAsync;
+module.exports = parseExpiryDateAsync;
