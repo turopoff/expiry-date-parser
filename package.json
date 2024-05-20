@@ -2,14 +2,20 @@
   "name": "expiry-date-parser",
   "version": "1.0.2",
   "description": "Normalize expiry date to full date",
-  "main": "index.js",
+  "main": "dist/expiry-date-parser.cjs.js",
+  "module": "dist/expiry-date-parser.esm.js",
+  "browser": "dist/expiry-date-parser.umd.js",
   "author": "turopoff",
   "license": "MIT",
+  "type": "module",
   "keywords": [
     "expiry date to full date",
     "normalize expiry date",
     "date"
   ],
+  "scripts": {
+    "build": "rollup -c -m"
+  },
   "dependencies": {
     "moment": "^2.30.1",
     "moment-parseformat": "^4.0.0"
@@ -17,5 +23,18 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/turopoff/expiry-date-parser.git"
-  }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "rollup": "^2.67.0",
+    "@rollup/plugin-terser": "^0.4.4"
+  },
+  "files": [
+    "dist"
+  ]
 }
